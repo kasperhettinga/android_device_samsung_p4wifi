@@ -2,12 +2,12 @@
 $(call inherit-product, device/samsung/p4wifi/p4wifi.mk)
 
 # Inherit some common cyanogenmod stuff.
-$(call inherit-product, vendor/cm/config/common_full_tablet_wifionly.mk)
+$(call inherit-product, vendor/custom/config/common.mk)
 
 #
 # Setup device specific product configuration.
 #
-PRODUCT_NAME := cm_p4wifi
+PRODUCT_NAME := custom_p4wifi
 PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := p4wifi
 PRODUCT_MODEL := GT-P7510
