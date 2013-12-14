@@ -14,4 +14,4 @@
 # limitations under the License.
 #
 
-add_lunch_combo omni_p4wifi-userdebug
+add_lunch_combo omni_p4wifi_hc-userdebug

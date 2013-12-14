@@ -20,10 +20,10 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 -include device/samsung/p4-common/BoardConfigCommon.mk
 
 # Use the non-open-source parts, if they're present
--include vendor/samsung/p4wifi/BoardConfigVendor.mk
+-include vendor/samsung/p4wifi_hc/BoardConfigVendor.mk
 
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 606076928
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 14472970240
 
-TARGET_PREBUILT_KERNEL := device/samsung/p4wifi/kernel
+TARGET_PREBUILT_KERNEL := device/samsung/p4wifi_hc/kernel
 

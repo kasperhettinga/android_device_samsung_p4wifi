@@ -33,14 +33,14 @@ $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
 $(call inherit-product, device/samsung/p4-common/p4-common.mk)
 
-$(call inherit-product, vendor/samsung/p4wifi/p4wifi-vendor.mk)
+$(call inherit-product, vendor/samsung/p4wifi_hc/p4wifi_hc-vendor.mk)
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
-PRODUCT_NAME := p4wifi
-PRODUCT_DEVICE := p4wifi
-PRODUCT_MODEL := p4wifi
+PRODUCT_NAME := p4wifi_hc
+PRODUCT_DEVICE := p4wifi_hc
+PRODUCT_MODEL := p4wifi_hc
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung

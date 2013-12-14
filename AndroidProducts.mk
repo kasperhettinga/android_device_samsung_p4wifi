@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_p4wifi.mk
+    $(LOCAL_DIR)/omni_p4wifi_hc.mk
